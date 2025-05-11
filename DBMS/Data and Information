@@ -1,0 +1,11 @@
+Data
+  Data is the raw facts that can be processed for further modification.
+  Example:We have a Data like Raj,orange and 12.
+
+Information
+   Processed data is an information.
+
+Example:We have a Data called Raj but while we entering in a database or a table it can be mentioned as somename name is Raj.
+Name->Raj
+Likewise,we have orange it can be a fruit or a color according to the table.
+12 can be a roll number,birth date or some pocket money.
