@@ -1,0 +1,17 @@
+DBMS-Database Management System That is used to store the data,Retrieve the data and update the data.
+Uses and Advantages
+
+STORE THE DATA
+   To store the data like for example we have a student database in that we can store their Attendance Percentage and the academic marks.
+UPDATE THE DATA
+   In the same student database we can add new student detail and their data to our database.
+MODIFY THE DATA
+   The student details can be modified at any time
+RETRIEVE THE DATA
+    We need some student information we retrieve it.
+SCALABILITY
+    The database can be scalable and can handle so many data that need to added.
+ACCESS CONTROL
+    Can we take,Like a studenit information can not be accessible to any other person apart from the management.They have only the access.
+DATA INTEGRITY
+    The database is enforced to certain set of rules and the database Should be applicable for the correctness of the data all the time.
