@@ -1,0 +1,14 @@
+1.Relational Database
+    Relational Database is the interconnected data which has relation within the tables.It is mostly stored like tables.
+    Example:MySql server,Microsoft sql server
+2.NoSql Database
+    Stores data in the form of Key value pair format.
+    Example:MongoDB(Document Oriented)
+3.Object Oriented Database
+    Stores data in the form of objects.
+4.Multimedia Database
+    Audio,video,text format has been stored in this kind of database.
+5.XML Database
+    Stores data in the form of XML Format.
+6.BlockChain Database
+    Stores data in the form of Blocks.
