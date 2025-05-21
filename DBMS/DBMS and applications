@@ -15,3 +15,9 @@ ACCESS CONTROL
     Can we take,Like a studenit information can not be accessible to any other person apart from the management.They have only the access.
 DATA INTEGRITY
     The database is enforced to certain set of rules and the database Should be applicable for the correctness of the data all the time.
+
+Disadvantages
+Cost
+   The cost of Setting up the DBMS is higher and it can be some affecting factor
+Vendor-Lock in
+   Consider You have been using a database and you want to change the database,But it is impossible to change it .This condition can be called as the vendor lock in.
