@@ -28,3 +28,25 @@ Levels of Abstraction
 Physical-In this level of abstraction only can know how the data is present and it is the low level of abstraction.
 Logical-In this level of abstraction only can know what data is present and it is the medium level of abstraction.
 View-In this kind of abstraction the users can only see the process that are taken place in the database.
+
+
+DBMS Architecture
+Physical level 
+Logical level
+      Conceptual Schema
+      External Schema
+
+3-tier Architecture
+  This Architecture is widely used around the globe as it has three layers and it has been divided the responsibilities into small modules
+         Presentation layer - This is the top most layer.It is the user Interface where the users can view and user can see.
+         Service layer   -Business logic layer For example Server
+         Database layer - It is the data layer where the data is stored.
+
+Advantages of 3 tier architecture
+   Scalability-Can handle n number of requests or functions.
+   Modularity-Can divide the functions into modules and take over the responsibilities
+   Efficient and Productive
+Disadvantages
+   complexity,Bottle necks
+   
+
