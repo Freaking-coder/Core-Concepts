@@ -21,3 +21,10 @@ Cost
    The cost of Setting up the DBMS is higher and it can be some affecting factor
 Vendor-Lock in
    Consider You have been using a database and you want to change the database,But it is impossible to change it .This condition can be called as the vendor lock in.
+
+Data Abstraction
+  Data Abstraction is the condition to hide some internal details that are not much concerned by the user while interacting with the database.
+Levels of Abstraction
+Physical-In this level of abstraction only can know how the data is present and it is the low level of abstraction.
+Logical-In this level of abstraction only can know what data is present and it is the medium level of abstraction.
+View-In this kind of abstraction the users can only see the process that are taken place in the database.
