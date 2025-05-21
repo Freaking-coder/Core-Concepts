@@ -1,0 +1,20 @@
+Data Model
+   Conceptual and high level data Model
+   Visual representation of the database
+Schema
+   Implementation of the database
+
+Types of DataModel
+
+Relational Datamodel
+  -It is mostly represented in the form of tables where every tables have relation within each other.
+Hierarchial Datamodel
+  -It is the tree like model and represents in the form of parent-child structure.
+ER Model
+  -It is the Entity-relationship model and describes the relationship between the entity and the attributes.
+Network Model
+  -It is the graph like structured model.
+Object oriented model
+  -Relations between the objects and the structures within the encapsulation and the inheritance.
+NoSql Model
+  -Key value pair structured model.Example MongoDb.
