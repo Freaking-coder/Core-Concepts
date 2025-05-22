@@ -1,0 +1,7 @@
+ER Model
+  Entity Relationship model describes the relation between the entities in the visual form.
+Entity-Is a Physical form or a object like for Example:Book,Employee
+Entity an be divided into 
+    Strong Entity-Can exist independently without the other entity
+    Weak Entity-Cannot Exist independently (denoted by double rectange)
+Attribute-Characteristics of an entity Example:For a Entity Employee there can be a attribute of Empid,Empname
