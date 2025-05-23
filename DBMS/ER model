@@ -5,3 +5,38 @@ Entity an be divided into
     Strong Entity-Can exist independently without the other entity
     Weak Entity-Cannot Exist independently (denoted by double rectange)
 Attribute-Characteristics of an entity Example:For a Entity Employee there can be a attribute of Empid,Empname
+
+Types of Attribute
+Simple Attribute
+  -Simple Attribute is an atomic attribute which cannot be divided further.(Denoted by Oval)
+  -For Example,Consider a Example Name can be divided into First and Last name which can't be divided further.
+Composite Attribute
+  -Composite Attribute is a attribute that can be divided further
+  -Consider Address attribute which can be divided into city and State.
+Single valued Attribute
+  -An Attribute That consist only of single value like Phone number or email id.
+MultiValued Attribute
+  -An attribute that has a multiple value like Name can be of Multiple value.(Denoted by double oval)
+Derived Attribute
+  -An attribute that is derived from the other attribute within the database.(Denoted by Doted Oval)
+  -Example,age can be derived from DOB.
+Key Value Attribute
+  -Which consist of primary key.(Denoted by oval with underline)
+Stored Attribute
+  -An attribute that is stored in the database.Like DOB.
+
+Relationship
+The relation between the entities is called Relationship.
+Can be of Strong and weak Relationship
+Strong Relationship- Relation between the entitites is like it can exist without each other.
+Weak relationship- Relation between the entitites is like it cannot exist without each other.
+
+Based on the cardinality/degree(Attributes)
+One to One relationship
+One to many relationship
+Many to one relationship
+Many to Many relationship
+
+
+
+
