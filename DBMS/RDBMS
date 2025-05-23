@@ -1,0 +1,6 @@
+RDBMS-Relational Database Management System
+  In this model the data will be stored in the tabular format.
+  In tabular format it have Rows(Tuples),columns(Degree/Cardinality).
+  We will Insert the value and update the value in this
+  It can also have the null values present in it.
+  
