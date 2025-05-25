@@ -3,4 +3,29 @@ RDBMS-Relational Database Management System
   In tabular format it have Rows(Tuples),columns(Degree/Cardinality).
   We will Insert the value and update the value in this
   It can also have the null values present in it.
+
+Database Model which is used to perform the functions which in tabular model.
+Which also used in CRUD Operations.
+The function which is used to create a function is MySql (Structured Query language)
+
+Realtional Database is MySQl,MariaDB and Oracle
+NoSql Database is MongoDB
+
+Essential Terms in RDBMS
+Rows/Tuples-data which is contained in a single row
+Cardinality-No of rows in a table
+Columns-Attributes that are in a table
+Degree-No.of Columns in a table
+
+Constraint
+Table which need to be followed certain conditions in a table 
+Constraints some are
+Unique-Need to be distinct values
+Not Null-No null values are appreciated
+Check-If the condition is satisfied needs to be entered in the table.
+
+Keys
+
+
+
   
