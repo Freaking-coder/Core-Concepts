@@ -26,6 +26,25 @@ Check-If the condition is satisfied needs to be entered in the table.
 
 Keys
 
+The Keys are the attributes in a table.
+The types of the keys are
+Primary Key
+Candidate Key
+Super Key
+Foreign Key
+
+Primary Key
+  It is the unique identifier of the row in a table.It should be unique and not null(Referenced)
+  Example:Consider a table of Student where StudentRoll no will be PK with this key we can fetch the data of the student.
+Foreign Key(Referencing)
+  It is the referencing key which uses the other table primary key as its.
+Candidate Key
+  The attributes which are qualifying the criteria to be primary key is a ck.It is a group of attributes.
+SuperKey
+  It is the minimal subset of the candidate key.
+
+  
+
 
 
   
