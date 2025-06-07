@@ -25,3 +25,37 @@ Advantages
     Faster Queries
 Disadvantages
     Data Inconsistency and Data Redundancy
+
+Functional Dependency
+    Describes a Relation Between the attributes in a relation.
+FD can be X->Y
+Attribute Y is dependent on X.
+
+The properties of Functional Dependency
+Reflexivity
+    x ->y where y is the subset of x.
+Augmentation
+    If x ->y 
+    Then xz ->yz for any Z.
+Example:EmpId->EmpName
+        EmpId/ph->EmpName/ph
+Transivity
+    If x->y,y->z
+    Then x->z
+Union
+    If x->y,x->z
+    Then x->yz but not yz->x
+Decomposition
+    If x->yz
+    Then x->y and x->z
+
+Trivial Dependency where y is the subset of x
+Non Trivail Dependency where y is not a subset of x.
+
+Attribute Closure
+A+ is a set of attributes that deterimine the particular key.
+
+Lossless Decomposition
+        The relation when it does not loss any data while joining.
+Lossy Decompositom
+        The relation when it loss the data while joining.
