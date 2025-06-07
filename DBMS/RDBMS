@@ -42,6 +42,8 @@ Candidate Key
   The attributes which are qualifying the criteria to be primary key is a ck.It is a group of attributes.
 SuperKey
   It is the minimal subset of the candidate key.
+Referencial Integrity
+  It defines whether the inetgrity between the entity and the relationship between the model is integral.
 
   
 
