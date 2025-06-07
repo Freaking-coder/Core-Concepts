@@ -1,0 +1,27 @@
+Normalization
+    Normalizatiion is the process to reduce the redundancy in the table.
+    It does not guarantee to remove the redundancy and it will reflect it reducing the Redundancy.
+Normalization Types
+    First Normal Form
+    Second Normal Form
+    Third Normal Form
+    Boyce Cott Normal For(3.5)
+First Normal Form
+    To follow the 1 NF the values should be atomic.As it should have any multivalued attribute.
+    Example:In the order column can be Food and drinks and it need to be splitted to be in first normal form(Multivalued-->SingleValued)
+Second Normal Form
+    It should be in 1NF.
+    NO Partial Dependency.
+Third Normal Form
+    It should be in 2NF
+    It should contain any transitive dependency(A->B,B->C,A->C)
+Boyce Cott Normal Form
+    Refinement of 3rd Normal form so it should be in 3NF.
+
+Denormalization
+    It is the vice versa of Normalization
+    It deals with increasing or introducing redundancy to solve more complex queries.
+Advantages
+    Faster Queries
+Disadvantages
+    Data Inconsistency and Data Redundancy
