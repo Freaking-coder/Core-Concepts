@@ -81,4 +81,37 @@ DELETE FROM employees WHERE id = 1;
 | DQL      | Queries the database             | `SELECT`                                        |
 | DML      | Manages data inside tables       | `INSERT`, `UPDATE`, `DELETE`                    |
 
+DDL
+
+-->CREATE-Helps to create a database and a table
+Syntax
+    CREATE DATABASE databasename;
+    CREATE TABLE tablename colname datatype constraints;
+
+-->ALTER-It modifies the data by adding values or adding column and renaming the name of the column and the constraints.\
+ALTER USED IN ADDING A COLUMN
+    ALTER TABLE tablename
+    ADD colname datatype constraint;
+ALTER USED IN CHANGING COLUMN
+    ALTER TABLE tablename
+    CHANGE old colname new colname;
+ALTER USED TO DROP A COLUMN
+    ALTER TABLE tablename
+    DROP colname;
+ALTER USED TO RENAME A COLUMN NAME
+    ALTER TABLE tablename
+    RENAME COLUMN oldcol to newcol;
+
+-->DROP-Used to delete a table
+    Syntax
+    DROP TABLE tablename;(It deletes all the records and structure of the table)
+
+-->TRUNCATE-Used to delete the records in the table by preserving the structure
+    Syntax
+    TRUNCATE TABLE tablename;
+
+
+
+
+
 
