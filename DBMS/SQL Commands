@@ -1,3 +1,5 @@
+DDl-Data Definition Language(To define the schema)
+
 -->CREATE-Helps to create a database and a table
 Syntax
     CREATE DATABASE databasename;
@@ -24,3 +26,6 @@ ALTER USED TO RENAME A COLUMN NAME
 -->TRUNCATE-Used to delete the records in the table by preserving the structure
     Syntax
     TRUNCATE TABLE tablename;
+
+DQL(Data Query Language)
+SELECT-To 
