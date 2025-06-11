@@ -1,0 +1,20 @@
+Encryption is the method to save the data in the secure format and can able to see only with decrypt key.
+    Example:
+      A SSN number of the person is 567-789 and it can be encrypted as $%^&*(
+
+The types of Encryption
+    IN Rest Encryption
+    IN transit Encryption
+    Columnar Encryption
+    Full disk Encryption
+
+IN Rest Encryption
+   The data is encrypted in the disk where it is stored.The person can see the disk with the decrpty key.
+IN transit Encryption
+   The data is encrypted while transferring or doing transaction within the database and the user.
+Columnar Encrption
+    Certain columns in a database will be encrypted and all the other columns will be remain encrypted.
+Full Disk Encryption
+    The disk can be fully encrypted.Like hard disk is completely encrypted.
+
+    
