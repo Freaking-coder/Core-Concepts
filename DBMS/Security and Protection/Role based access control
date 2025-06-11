@@ -1,0 +1,11 @@
+RBAC is a security method to avoid the databse used to protect the database from the unauthorized access and able to provide access to selected people.
+The types of access that are provided are 
+      Roles
+      Permission
+      Users
+Role
+  Is the person who does the job function like Admin and Manager.
+Permission
+  Give the special access to person who can able modify the database like write and read operation.
+Users
+  The person who is assignes with doing 2 or 3 roles.
