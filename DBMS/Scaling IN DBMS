@@ -1,2 +1,41 @@
 To scale in DBMS is the Database must be able to adapt and function properly irrespective how much data grows.
 
+Process to scale in database
+  While Searching in a chrome for some URl page the device is given by User to the browser.
+  The browser converts the URL into IP address and return the page the user wanted.
+  If the IP address is found in the cache then it will return quickly from the cache.
+    -->Cache holds the data that is frequently asked by the user.
+  If the IP address is not in cache then it goes to DNS lookup and send the response to Device(user).
+  Then using TCP/IP Protocol the response is send to the server usinf the load balancer.
+    -->Load Balancer balances the request that needs to be served to the server that has less requests.
+  Server can be scaled with vertical and horizaontal scaling.
+  Then Load balancer can used to search for the database.
+  The database is scaled as Master and slaves
+Where Master performs write operation and slaves can be able to perform read operations.
+
+VERTICAL SCALING AND HORIZONTAL SCALING
+Database can be able scale as Vertical and Horizontal scaling.
+Vertical scaling is called as scaling in like it increases the RAM,CPU .But it has the disadvantage of limited hardware.
+Horizontal Scaling is called as scaling out where it increases the instances.
+
+The other methods to scale a database are,
+Data Replication
+    Method to have a copy of the original database.It can be done as Master and slave .
+Master and slave
+    Master-->Performs write operation
+    Slave-->Performs read operation
+Multi Master
+    It can be able to perform both write and read operations.But it can have many crash and collapse in the table.Which will do which operation.
+
+Sharding
+    To divide the large table into small tables
+     It can be of
+        Range based Sharding
+          It splits the table into some certain range.Like first 5 columns to one and the other to 10 to other.
+        Hash based Sharding
+          Splits the table with some particular key.Key is around given to some hashes.
+Caching
+    To keep the frequently used queries in some place.
+Partitioning
+    To divide the table into many tables.
+        
