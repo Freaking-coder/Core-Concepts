@@ -31,3 +31,18 @@ DQL(Data Query Language)
 SELECT-To display the desired columns
 Syntax
         SELECT colname1,colname2 from tablename
+Operations in SQL
+    The operators that are used in 
+        Arithmetic operator
+        Relational Operator
+        Bitwise operator
+        Logical operator
+        IN operator
+        BETWEEN operator
+
+Arithmetic operators
+Plus(+)
+Subtract(-)
+Multiply(*)
+Divide(/)
+Modulus(%)
