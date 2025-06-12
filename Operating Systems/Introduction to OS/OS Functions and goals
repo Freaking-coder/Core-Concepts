@@ -1,0 +1,107 @@
+An Operating System (OS) is the fundamental software that manages hardware and software resources
+on a computer. It acts as an intermediary between users and the computer hardware, ensuring that all
+applications run smoothly and that resources like CPU, memory, and storage are allocated efficiently.
+
+It provides an environment where applications can run and users can interact with the computer.
+
+Example of OS : Windows, Android and iOS, Linux, macOS
+
+System software : It help to manage and operate the computer hardware so that other software can
+function.
+Ex : Compiler (Convert high-level code to machine language), Operating Systems (OS) , Utility
+Software(Antivirus software which perform specific tasks related to system maintenance and optimization)
+
+Application software : It is designed to perform specific tasks for users. It runs on top of the system software
+and interacts with it to carry out its functions.
+Ex : Word Processor(Used for writing and editing documents.)
+
+-> System software is essential for the computer to function, while application software provides tools for
+specific tasks.
+
+-> System software typically comes pre-installed with the computer, while application software is usually
+installed separately.
+User Interaction: The user interacts with the application (Text editor) and
+requests to save the document.
+
+Application-OS Interaction: The application sends a system call to the
+operating system to request writing the document to the storage device
+
+OS-Hardware Interaction: The OS communicates with the hardware
+through the file system and storage device drivers to physically write the
+data to the storage medium.
+
+Hardware: The hardware performs the actual writing of data to the disk.
+
+Components of Operating system
+
+The operating system is a complex software made up of various components that work together to
+manage system resources, ensure security, and provide an interface for users and applications. Each
+component has a specialized role, but all are critical for the overall functioning of the OS and the stability of
+the system.
+
+Kernel – The core of the OS that manages system resources.
+Process Management Module – Handles process creation, scheduling, and execution.
+Memory Management Module – Manages RAM allocation and virtual memory.
+File System – Organizes and manages data storage.
+Device Drivers – Allows communication between the OS and hardware.
+User Interface (CLI/GUI) – Enables user interaction with the system.
+
+Components of Operating system
+
+The operating system is a complex software made up of various components that work together to
+manage system resources, ensure security, and provide an interface for users and applications. Each
+component has a specialized role, but all are critical for the overall functioning of the OS and the stability of
+the system.
+
+Kernel – The core of the OS that manages system resources.
+Process Management Module – Handles process creation, scheduling, and execution.
+Memory Management Module – Manages RAM allocation and virtual memory.
+File System – Organizes and manages data storage.
+Device Drivers – Allows communication between the OS and hardware.
+User Interface (CLI/GUI) – Enables user interaction with the system.
+
+Goals of Operating system
+
+These define the purpose of the OS
+
+Efficiency – Ensure optimal use of system resources (CPU, memory, storage, etc.).
+User Convenience – Provide a user-friendly interface (CLI/GUI) for interaction.
+Security & Protection – Safeguard system data and processes from unauthorized access.
+Multitasking & Parallel Processing – Support multiple processes and users efficiently.
+Reliability & Fault Tolerance – Ensure system stability, error handling, and recovery.
+
+Primary functions of an OS
+
+Process Management -> Operating system manages the creation,
+scheduling, and termination of processes on the computer. It allocates
+CPU memory to different processes to run simultaneously, allocating CPU
+time among them.
+
+Memory Management -> Operating system allocates memory to
+processes when needed and frees it when no longer required. It
+implements virtual memory, allowing the use of secondary storage as an
+extension of RAM for larger applications.
+
+File System Management-> Operating system manages files on disk,
+organizing them into folders and directories for easy access and storage. It
+handles file creation, deletion, and modification. It also helps in managing
+file access permissions and security.
+
+Primary functions of an OS
+
+Device Management-> Operating system manages input/output devices
+(printers, keyboards, disks, etc.) and provides a layer of abstraction, allowing
+applications to interact with hardware through drivers.
+
+Security and Access Control-> Operating system enforces user authentication,
+permissions, and protects against unauthorized access. It provides security
+features like firewalls and antivirus software.
+
+Networking-> Operating system manages network connections and data sharing.
+It facilitates network communications, allowing devices to connect, share data, and
+access resources over local or remote networks.
+
+User Interface-> Operating sytem provides an interface for users to interact with
+the system, typically through a command-line interface (CLI) or a graphical user
+interface (GUI). It also allows users to execute commands, manage files, and
+interact with applications in a user-friendly way.
