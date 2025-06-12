@@ -1,0 +1,11 @@
+When a process is executed it will be undergoing various phases
+
+New--Process Enters a new Phase
+
+Ready-->While the process is ready to execute 
+
+Waiting-->While it needs to wait as other process has been executing
+
+Running-->The State where the process is running
+
+Exit-->The process executed successfully.
