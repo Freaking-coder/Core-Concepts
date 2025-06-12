@@ -1,0 +1,5 @@
+Program is the set of instructions which is specified to a particular task.
+
+Process is the system call the os to do the specified task and it happens when the program starts running.
+
+Thread is the helper function for the process.Threads are the small process that breaks the large process to a small one.
