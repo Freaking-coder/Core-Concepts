@@ -1,0 +1,39 @@
+The kernel is the core component of the operating system that acts as a bridge between the hardware and software layers of a computer system. It is responsible for managing system resources, such as CPU, memory, and Input/Output devices, and providing essential services to run user applications.
+
+As the central control program, the kernel governs the operations of the entire operating system.
+
+Kernel Overview
+Kernel Mode
+The kernel operates in privileged mode, allowing it to access hardware resources and perform critical system-level tasks. It interacts directly with the hardware components of the computer and provides a layer of abstraction to shield user applications from the complexities of hardware management.
+
+User Mode
+User Mode is a restricted execution environment where user applications and processes run. In User Mode, programs have limited access to system resources and cannot perform privileged operations, such as accessing hardware or modifying system settings.
+
+User Mode provides a protected environment that isolates user applications from the critical components of the operating system, ensuring system stability and security. User mode programs communicate with the kernel through controlled mechanisms, such as system calls, to request access to shared resources or perform privileged operations.
+
+Privileged Mode
+Privileged Mode, also known as Supervisor Mode or Kernel Mode, is an execution environment in which the operating system kernel runs with unrestricted access to system resources. It can perform critical operations like accessing hardware directly, modifying system settings, and managing system memory.
+
+The kernel operates in privileged mode to execute essential system tasks, such as process management, memory allocation, and hardware control, which require elevated privileges beyond what user mode programs can access.
+
+Protection Rings
+Protection rings are a mechanism used by processors to enforce access control and privilege levels within the system. Modern processors typically support multiple protection rings, with Ring 0 being the most privileged (kernel mode) and higher-numbered rings being less privileged (user mode).
+
+Protection Rings Diagram
+The operating system uses protection rings to define different privilege levels for executing code and accessing system resources. User mode programs operate within the least privileged protection ring, while the kernel operates within the most privileged ring, allowing the kernel to control access to system resources and ensure system security.
+
+Transition between Kernel and User Modes
+A computer system switches execution context from running in privileged mode (kernel mode) to running in restricted mode (user mode) to maintain security and stability while allowing user programs to access privileged resources through controlled means.
+
+Transition between Kernel and User Modes
+When a computer system boots up, it typically starts executing user programs in user mode. In user mode, programs have restricted access to system resources and cannot perform privileged operations directly.
+
+When a user program needs to perform a privileged operation or access protected resources (such as reading from or writing to disk), it makes a request to the kernel through a mechanism known as a system call.
+
+Upon receiving a system call request, the CPU switches execution context from user mode to kernel mode. This transition involves changing the processor's execution mode and switching to a separate stack (kernel stack) reserved for handling kernel-level operations.
+
+In kernel mode, the operating system kernel gains full access to system resources and can perform privileged operations on behalf of the user program. It validates the system call request, checks for necessary permissions, and executes the requested operation.
+
+After completing the requested operation, the kernel prepares the result (if any) and copies it back to the user space. It also updates the CPU registers to restore the user program's execution state.
+
+Once the system call handling is complete, the CPU switches execution context back to user mode. The program resumes execution from the point where the system call was invoked, continuing its normal flow with the result of the system call operation.
