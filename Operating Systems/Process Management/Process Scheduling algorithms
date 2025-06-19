@@ -1,0 +1,26 @@
+CPU Scheduler
+    The CPU Scheduler allocates the process which need to be executed after the process ends.
+Dispatcher
+    The module that gives control to CPU or allocates that is selected for execution
+Dispatch latency
+    The time taken to stop one process and start other process is called dispatch latency.
+
+Preemptive and No Preemption
+
+The circumstances where the CPU Schedules are,
+
+1.When Process in Running State to Ready State.(Interrupt)
+2.When Process Waiting State to Ready State.(I/O Operations)
+3.When Process Running State to Waiting State.
+4.When The Process is terminated.
+
+In 1 and 2 The Process which is in ready state can be interrupted or can be in waiting state so it can be preempted so it is called Premption.
+In 3 and 4 The Process Starts without any interruption so it can be of Non Preemption Scheduler.
+
+To allocate the Process the CPU maintains a Certain Algorithms
+  First In First Out-It allots the process which came First.
+  Shortest Job First-It allocates the process which has the shortest burst time.
+  Shortest Job remaining Time-Allocates the process which has the less completion time.
+  Priority Scaheduling-Allocates the process which has the highest priority.
+  Round Robin
+
