@@ -1,0 +1,9 @@
+Starvation
+    Starvation is the factor that occurs mostly in Priority scheduling.
+    In Priority Scheduling the highest Priority process executes first while the process with less priority waits for the long time to execute.
+    This waiting of the process is called as starvation.
+
+Aging
+    Aging is the technique to avoid starvation in the priortity scheduling.
+
+Starvation may lead low system performnace due to long wait of the process.
