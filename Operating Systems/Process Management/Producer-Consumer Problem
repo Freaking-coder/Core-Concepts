@@ -1,0 +1,13 @@
+The Producer-Consumer Problem is The problem which deals with process synchronization.
+Producer is the one which always produces while Consumer is the One which consumes what the producer produces.
+
+Here the problem for the producer consumer problem 
+-->The Producer can't produce and insert anything into the buffer while it is full.
+-->The consumer can't consume anything if the buffer is empty.
+-->The producer and the consumer both can't produce and consume from the buffer simultaneously.
+
+To avoid thisProblem we have a Semaphore we deal with that.
+The three semaphore will be helpful in solving this problem is
+mutex()-->Acquire and release the lock.
+empty()-->Initial value is number of slots.
+full()-->Initial value is 0.
