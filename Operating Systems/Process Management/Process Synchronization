@@ -1,0 +1,11 @@
+Consider,
+    The producer and consumer problem where both can't do their actions concurrently,we would face the data manipulation. 
+    To avoid this condition we need process synchronization.
+
+Race Condition:
+    The Producer and consumer Problem Produces a wrong result while it was working concurrently.This condition is called race Condition.
+
+The Operating System has Buffer (temporary storage location to access the data faster)
+The buffer can be of two types
+Bounded Buffer-  The Bounded buffer has a fixed size.
+Unbounded Buffer-  The Unbounded buffer has a unfixed size.
