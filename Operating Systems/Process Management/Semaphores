@@ -1,0 +1,14 @@
+The Semaphore is the integer value which is used to achieve process synchronization.
+Semaphore is used to work in a condition where a process can work concurrently.
+
+Semaphore S can have 2 variables
+    wait()
+    Signal()
+
+The types of semaphore
+    Binary Semaphore
+    Counter Semaphore
+Binary Semaphore-Range Between 0 and 1
+    Known as Mutex locks as the locks provide mutual exclusion
+Counter Semaphore-Range That is specified
+    Used to control access to a resource to a multiple instances.
