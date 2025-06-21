@@ -1,1 +1,20 @@
+The critical Section is the section where a certain process will be performing operations like updating variables or values and changing datatype.
+These kind of process is called as a critical section.
+
+Problem of critical Section are:
+--->When a Process is executing in a critical section ,the other process can't execute in its critical section.
+
+The sections of a process in the critical section are
+    If the process request to execute in its critical section then it is called as request mode.
+    The process in the entry of the critical section is entry section.
+    The section is then followed by exit section.
+    Then the Remainder section.
+
+The critical section should satisfy the following requirements:
+Mutual Exclusion:
+      When a Process is in the critical section then the other process can't execute in their critical section.
+Progress:
+      If no process is executing in the critical state then the other process can request when it is not in remainder mode.
+Bounded Waiting:
+      The critical section of a process is executing,The other process is requesting to execute in critical section.But the request that is making can also have some limits and bounds.
 
