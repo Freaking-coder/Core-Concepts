@@ -1,0 +1,25 @@
+Deadlock is the situation where a process holding a resource that is wanted by another process.This condition causes a deadlock.
+
+The situation where the deadlock can occur are
+      Mutual Exclusion
+      Hold and wait
+      No Preemption
+      Circular wait
+Mutual Exclusion
+    The resource need to be shared within the process.
+Hold and wait
+    The resource that is needed by another process will be hold by other process.This can cause deadlock.
+
+Methods to handle the deadlock
+      Deadlock Ignorance
+      Deadlock Prevention
+      Deadlock avoidance
+
+Deadlock Ignorance
+    When there is deadlock up to occur restart the system and the deadlock will be ignored.
+    The system can't able to gain with system code as its reduces the system performance.
+Deadlock Prevention
+    The deadlock can occur due to the causes of the deadlock.So make anything false.
+Deadlock avoidance
+    
+    
